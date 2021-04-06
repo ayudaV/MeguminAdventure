@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megumin Adventure</title>
+    <script src="JS/Background.js" type="text/javascript"></script>
+    <script src="JS/GameController.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="styleCss.css">
+
+
+</head>
+<body onload="Load()">
+    <section>
+        <canvas id="gameCanvas" 
+        width="1000" height="500"
+        style="border:1px solid #1b0902;"
+        onclick="MousePressed(event)">
+        Seu browser não suporta o element CANVAS, atualize-se!!!
+        </canvas>
+        <br>
+        <p id="loca"></p>
+        <input type="button" value="Início" id="hub" onclick="MenuHub()">
+        <input type="button" value="Controles" id="control" onclick="MenuControl()">
+        <input type="button" value="Jogar" id="play" onclick="Start()">
+        <input type="button" value="Jogar Novamente" id="playAgain" onclick="Resetar()">
+        <input type="button" value="Voltar ao Menu" id="hubBack" onclick="HubBack()">
+    </section>
+    <footer>
+        <p>Colegio Técnico de Campinas - COTUCA - @Ayuda</p>
+    </footer>
+</body>
+</html>
