@@ -1,4 +1,3 @@
 # MeguminAdventure
-A simple school game
-
+Explosion!!!
 ## Mama pra explosões
