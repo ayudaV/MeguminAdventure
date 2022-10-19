@@ -1,3 +1,2 @@
 # MeguminAdventure
-Explosion!!!
-## Mama pra explosões
+The first game project in javascript.
