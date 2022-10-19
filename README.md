@@ -1,2 +1,2 @@
 # MeguminAdventure
-The first game project in javascript.
+My first game project in javascript.
